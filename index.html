@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnanazPlay - Реклама SAMP проекта</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background: #ff7e5f;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 15px 0;
+            transition: color 0.3s;
+        }
+        .sidebar a:hover {
+            color: #feb47b;
+        }
+        .content-wrapper {
+            margin-left: 250px;
+            width: calc(100% - 250px);
+        }
+        .header {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: 700;
+        }
+        .header p {
+            font-size: 1.2em;
+        }
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .content:hover {
+            transform: translateY(-10px);
+        }
+        .content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #444;
+            font-weight: 700;
+            font-size: 2.5em;
+        }
+        .content p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .highlight {
+            color: #ff7e5f;
+            font-weight: 600;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .feature-item {
+            width: calc(33% - 40px);
+            margin: 20px;
+            padding: 20px;
+            background: #f9f9fb;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .feature-item:hover {
+            background-color: #f0f0f5;
+        }
+        .feature-item i {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #ff7e5f;
+        }
+        .feature-item h3 {
+            margin-top: 0;
+            font-size: 1.4em;
+            color: #444;
+            font-weight: 600;
+        }
+        .feature-item p {
+            font-size: 1em;
+            color: #666;
+        }
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 40px auto;
+            padding: 15px 30px;
+            background-color: #ff7e5f;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #e06650;
+            transform: scale(1.05);
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <a href="rules.html">Правила</a>
+    <a href="donate.html">Донат</a>
+    <a href="https://forum.ananazplay-forum.fun" target="_blank">Форум</a>
+    <a href="download.html">Скачать</a>
+</div>
+
+<div class="content-wrapper">
+    <div class="header">
+        <h1>AnanazPlay</h1>
+        <p>Твой новый игровой мир в SAMP</p>
+    </div>
+
+    <div class="content">
+        <h2>Почему выбрать <span class="highlight">AnanazPlay</span>?</h2>
+        <p>AnanazPlay — это уникальный проект, который открывает перед вами удивительный мир GTA: San Andreas Multiplayer (SAMP). Мы предлагаем игрокам невероятный опыт с захватывающими миссиями, уникальными транспортными средствами и дружелюбным сообществом, где каждый найдет себе место.</p>
+        <div class="features">
+            <div class="feature-item">
+                <i class="fas fa-car"></i>
+                <h3>Уникальные автомобили</h3>
+                <p>Наш сервер предлагает эксклюзивные автомобили, которых вы не найдете больше нигде!</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-user-friends"></i>
+                <h3>Дружелюбное сообщество</h3>
+                <p>Присоединяйтесь к нашим игрокам и создайте незабываемые воспоминания вместе!</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-map"></i>
+                <h3>Огромный мир</h3>
+                <p>Изучайте огромную карту, полную тайн и неожиданных приключений.</p>
+            </div>
+        </div>
+        <a href="samp://65.108.99.34:1381" class="cta-button">Присоединиться сейчас!</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 AnanazPlay. Все права защищены.</p>
+    </div>
+</div>
+
+</body>
+</html>
